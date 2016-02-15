@@ -2,7 +2,7 @@ bl_info = {
     "name": "Group Amigo",
     "description": "Show active groups & quick select group objects",
     "author": "A Nakanosora",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (2, 76, 0),
     "location": "View 3D > Toolbar (T) > Relations",
     "warning": "",
@@ -17,6 +17,7 @@ class GroupAmigoPanel(bpy.types.Panel):
     bl_region_type = "TOOLS"
     bl_category = "Relations"
     bl_idname = 'groupamigo.mainpanel'
+    bl_context = 'objectmode'
 
     def draw(self, context):
         layout = self.layout
