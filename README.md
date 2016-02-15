@@ -13,3 +13,8 @@
 * Blender User Preferences > Install from File にて `group_amigo.py` を選択
 
 
+===========
+
+> See Also:
+
+* [Blender Addon - Exclusive Groups](https://github.com/a-nakanosora/Exclusive-Groups)
